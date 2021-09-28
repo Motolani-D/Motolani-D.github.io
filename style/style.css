@@ -1,0 +1,285 @@
+body{
+    margin-top: 0;
+    background: white;
+    font-family: 'Roboto,'Arial',sans-serif';
+}
+
+.head{
+    display: flex;
+}
+
+h1{
+    font-weight: 400;
+}
+h2{
+    font-weight: 300;
+}
+
+.nav-menu{    
+    margin-left: auto;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 80px;
+}
+
+.nav-menu a.active {
+    color: #00b39b;
+  }
+.logo>img{
+    width: 250px;
+    height: 100px;
+    padding-left: 80px;
+   
+}
+
+.head a{
+    
+    text-decoration: none;
+    font-size: 17px;
+    color: #ababab;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 50px;
+    font-family: 'Roboto',Arial,sans-serif;
+   }
+.logo-img>img{
+    width: 50px;
+    height: 50px;
+    padding-top: 0px;
+    align-self: center;
+}
+.logo-img{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.logo-img>h1{
+    align-self: center;
+    color: #00b39b;
+}
+.section-body{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    margin-left: 160px;
+    margin-right: 50px; 
+    line-height: 30px;
+    color: #747474;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+#p1{
+    margin-right: 40px;
+    }
+.boxes{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    border-radius: 6px;
+    }
+.boxn{
+    width:27%;
+    height: 300px;
+    border: 1px;
+    border-radius: 20px;
+    margin-top: 120px;
+    font-family: 'Work Sans',Arial,sans-serif;
+    color: #fff;
+    padding-left: 20px;
+    line-height: 20px;
+}
+#box1{
+    background:#00b39b;    
+}
+#box2{
+    background:#3d83df;
+    
+}
+#box3{
+    background: #747474;
+}
+.boxn>img{
+    padding: 30px;
+}
+.boxn>p{
+    font-size: 17px;
+}
+
+.boxn>links{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: #fff;
+}
+.dropdown{
+    overflow: hidden;
+}
+.body-footer{
+    display: grid;
+    grid-template-columns: 200px 50px 200px 200px 200px 100px 100px 100px 200px;
+    grid-template-rows: 100px;
+    margin-left: 80px;
+    justify-content: start;
+    padding-top: 70px;
+    }
+
+.col-1{
+    grid-column: 1/2;
+    color:#00b39b;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 25px;  
+}
+.body2{
+    width: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 700px;
+    background: #e5faf8;
+}
+.body2 h1{
+    color: #00b39b;
+    font-size: 20px;
+}
+.body2 p{
+    color: #747474;
+    font-size: 12px;
+}
+.bdy-boxes{
+    width: 50%;
+    display: inline-flex;
+    float: right;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    
+    
+    }
+#bdbx1{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    transform: translateY(20px);
+}
+#bdbx2{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background: #fff;
+    border: 8px;
+    padding: 20px;
+    align-content: center;
+    
+}
+
+#bdpara{
+    padding-left: 10px;
+    margin-left: 50px;
+    color: #747474;
+    line-height: 20px;
+    font-size: large;
+}
+#bdheader{
+    color: #00b39b;
+    padding: 20px;
+}
+    
+#bdbx3{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background: #fff;
+    border: 8px;
+    padding: 20px;
+    transform: translateY(20px);
+}
+#bdbx4{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background: #fff;
+    border: 8px;
+    padding: 20px;
+}
+
+.bdy-boxes>bdbx2>img{
+margin-left: 80px;
+
+}
+
+.body3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 8px;
+}
+
+.body3>h1{
+    align-self: center;
+    color: #00b39b;
+    margin-top: 50px;
+}
+
+.openings{
+    display: flex;
+    flex-direction: row;
+    margin-left:80px;
+    margin-right: 80px; 
+    flex-wrap: wrap;
+    gap:15px
+}
+
+.opening1{
+    width: 30%;
+    border:2px;
+    border-color: #00b39b;
+    height: 330px;
+    border-style:outset;
+    
+}
+
+#location1 img{
+height: 250px;
+width: 100%;
+}
+#location2 img{
+    height: 250px;
+    width: 100%;
+}
+#location3 img{
+    height: 250px;
+    width: 100%;
+}
+#location4 img{
+    height: 250px;
+    width: 100%;
+}
+ #location5 img{
+        height: 250px;
+        width: 100%;
+ }
+ #location6 img{
+    height: 250px;
+    width: 100%;
+}
+#location7 img{
+    height: 250px;
+    width: 100%;
+}
+
+.opening1>bclick{
+    float: left;
+}
+.actpar{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    margin: 80px;
+    border-top: #747474 2px;
+}
