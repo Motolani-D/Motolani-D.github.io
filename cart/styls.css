@@ -1,0 +1,51 @@
+body{
+  
+}
+
+.nav{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    }
+
+    #grandTotal{
+      color: blue;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+    }
+
+    .container {
+        display: flex;      
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 10px;
+        margin-top: 20px;
+      }
+
+      .item{
+          width: 250px;
+          height: 100px;
+          margin: 15px;
+          border-radius: 4px;
+          border-bottom: #ababab dotted;
+        }
+
+      h4{
+          margin: 10px;
+          font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+          text-align: left;
+          font-weight: lighter;
+         font: size 0.8em;
+      }
+      p{
+        text-align: center;
+        font-style: normal;
+      }
+      .fav{
+          margin-left: 120px;
+      }

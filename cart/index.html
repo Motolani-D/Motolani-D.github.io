@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styls.css">
+    <title>Cart</title>
+</head>
+<body>
+    <div class="nav">
+         <logo> Cartie</logo>
+         <div class="nav-icon">
+             <img src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/2x/external-cart-supermarket-flatart-icons-lineal-color-flatarticons.png" alt="" height="40">
+         </div>
+         <div class="total">
+             <p id="grandTotal">Total = N <span id="totalAmount">0</span></p>
+         </div>
+    </div>
+    <div class="container" id="cartItemOne">
+        <div class="item"  >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3p4hVsJfQTob1jsF5rMq2nuO1caI4AvEwA&usqp=CAU" alt="" width="70" height="70">
+            <img src="https://img.icons8.com/color/2x/filled-like.png" alt="" width="30" height="30" class="fav">
+        </div>
+        <div class="item">
+            <h4>Hermes Bag|Red glossy leather</42>
+            <p>N15,000
+                <input type="hidden" value="15000" id="price1">
+            </p>
+        </div>
+        <div class="item">
+         <div class="container">
+            <input type="button" data-pricing="price1" data-counter="itemCount1" onclick="decrementValue(event)" value="-" />
+            <input type="text" name="quantity" value="0" maxlength="2" max="10" size="1" id="itemCount1" />
+            <input type="button"  data-pricing="price1" data-counter="itemCount1"  onclick="incrementValue(event)" value="+" />
+            <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/2x/external-delete-miscellaneous-kiranshastry-lineal-kiranshastry.png" alt="" width="35", height="35" id='deleteItemOne'>
+            </div>
+            
+      </div>
+      
+      </div>
+      <div class="container" id="cartItemTwo">
+        <div class="item"  >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUgk2hR-fqJKT1h4XQwTn1uRSq-DkjzIKsbg&usqp=CAU" alt="" width="70" height="70">
+            <img src="https://img.icons8.com/color/2x/filled-like.png" alt="" width="30" height="30" class="fav">
+        </div>
+        <div class="item">
+            <h4>Hermes Bag|Red glossy leather</42>
+            <p>N10,000</p>
+            <input type="hidden" value="10000" id="price2">
+        </div>
+        <div class="item">
+         <div class="container" >
+            <input type="button" data-pricing="price2" data-counter="itemCount2" onclick="decrementValue(event)" value="-" />
+            <input type="text" name="quantity" value="0" maxlength="2" max="10" size="1" id="itemCount2"/>
+            <input type="button" data-pricing="price2" data-counter="itemCount2" onclick="incrementValue(event)" value="+" />
+            <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/2x/external-delete-miscellaneous-kiranshastry-lineal-kiranshastry.png" alt="" width="35", height="35" id='deleteItemTwo'>
+            </div>
+            
+      </div>
+      
+      </div>
+      <div class="container" id="cartItemThree">
+        <div class="item"  >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj4ti0IXybPTW9yxpsIS9YStGNLMLTMjkwag&usqp=CAU" alt="" width="70" height="70">
+            <img src="https://img.icons8.com/color/2x/filled-like.png" alt="" width="30" height="30" class="fav">
+        </div>
+        <div class="item">
+            <h4>Hermes Bag|Red glossy leather</h2>
+            <p>N8,000 
+                <input type="hidden" value="8000" id="price3">
+            </p>
+        </div>
+        <div class="item">
+         <div class="container">
+            <input type="button" data-pricing="price3" data-counter="itemCount3" onclick="decrementValue(event)" value="-" />
+            <input type="text"  name="quantity" value="0" maxlength="2" max="10" size="1" id="itemCount3" />
+            <input type="button" data-pricing="price3" data-counter="itemCount3" onclick="incrementValue(event)" value="+" />
+            <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/2x/external-delete-miscellaneous-kiranshastry-lineal-kiranshastry.png" alt="" width="35", height="35" id="deleteItemThree">
+            </div>
+            
+      </div>
+      
+      </div>
+      
+    
+</body>
+<script src="script.js"></script>
+</html>
